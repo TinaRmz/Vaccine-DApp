@@ -1,0 +1,22 @@
+[
+  {
+    "id": 0,
+    "name": "Moderna",
+    "picture": "images/Moderna.jpg"
+  },
+  {
+    "id": 1,
+    "name": "Pfizer",
+    "picture": "images/Pfizer.jpg"
+  },
+  {
+    "id": 2,
+    "name": "AstraZeneca",
+    "picture": "images/AstraZeneca.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Sinopharm",
+    "picture": "images/Sinopharm.jpg"
+  }
+]
