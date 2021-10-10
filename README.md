@@ -24,14 +24,9 @@ cause of deploy:
 
  ![App screenshot](screenshot4.png)
 
-Voting:
-
-![App screenshot](screenshot5.png)
-
-Winning:
+Voting (account2 to accaount6) and winning one:
 
 ![App screenshot](screenshot6.png)
-
 
 
 ## Business logic to be included
