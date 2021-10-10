@@ -20,6 +20,20 @@ Built a voting ballot application with 4 type of vaccine that there is a chairpe
 
 ![App screenshot](screenshot3.png)
 
+cause of deploy:
+
+ ![App screenshot](screenshot4.png)
+
+Voting:
+
+![App screenshot](screenshot5.png)
+
+Winning:
+
+![App screenshot](screenshot6.png)
+
+
+
 ## Business logic to be included
 1. State change rules
 2. Save start time as a state variable
