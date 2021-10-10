@@ -18,6 +18,8 @@ Built a voting ballot application with 4 type of vaccine that there is a chairpe
 5. Registered accounts cannot vote twice
 6. Can't vote a person who is not there
 
+![App screenshot](screenshot3.png)
+
 ## Business logic to be included
 1. State change rules
 2. Save start time as a state variable
