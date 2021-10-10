@@ -1,13 +1,15 @@
 pragma solidity ^0.5.16;
 
 contract Ballot {
+    // This declares a new complex type which will
+    // be used for variables later.
+    // It will represent a single voter.
 
     struct Voter {
-        uint weight;// weight is accumulated by delegation
-        bool voted;
-        uint8 vote;
-        address delegate;
-        // address delegate;
+        uint weight; // weight is accumulated by delegation
+        bool voted; // if true, that person already voted
+        uint8 vote; // index of the voted proposal
+        address delegate;  // address delegate;
     }
 
     //modifer
@@ -19,17 +21,23 @@ contract Ballot {
     /* struct Proposal {
         uint voteCount; // could add other data about proposal
     } */
-
     struct Proposal {
-        bytes32 name;
-        uint voteCount;
+        bytes32 name; // short name (up to 32 bytes)
+        uint voteCount; // number of accumulated votes
     }
 
     address public chairperson;
-    mapping(address => Voter) public voters;
+
+    
+    // This declares a state variable that
+    // stores a `Voter` struct for each possible address.
+
+   mapping(address => Voter) public voters;
+
+    // Create a new ballot with 4 different proposals:
     uint[4] public proposals;
 
-    // Create a new ballot with 4 different proposals.
+    
     constructor() public {
         chairperson = msg.sender;
         voters[chairperson].weight = 2;
@@ -56,6 +64,10 @@ contract Ballot {
         proposals[toProposal] += sender.weight;
     }
 
+    // Calls winningProposal() function to get the index
+    // of the winner contained in the proposals array and then
+    // returns the name of the winner:
+
     function winningProposal() public view returns (uint8 _winningProposal) {
         uint256 winningVoteCount = 0;
         for (uint8 prop = 0; prop < 4; prop++)
@@ -70,6 +82,3 @@ contract Ballot {
     }
 
 }
-
-
-   
