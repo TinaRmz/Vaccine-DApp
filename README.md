@@ -20,11 +20,11 @@ Built a voting ballot application with 4 type of vaccine that there is a chairpe
 
 ![App screenshot](screenshot3.png)
 
-cause of deploy:
+After deploy:
 
  ![App screenshot](screenshot4.png)
 
-Voting (account2 to accaount6) and winning one:
+Voting (account2 to account6) and declare winner:
 
 ![App screenshot](screenshot6.png)
 
