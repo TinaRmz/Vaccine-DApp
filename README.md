@@ -27,10 +27,6 @@ Built a voting ballot application with 4 type of vaccine that there is a chairpe
 1. NodeJs
 2. Metamask 
 3. Truffle 
-<<<<<<< HEAD
-(can use remix to deploy and test)
-=======
->>>>>>> 1fa50d1f4795e60c767f98781c0b35ee7f8f9359
 
 ## Instruction for truffle testing
 1. Clone the repository to a local folder
@@ -56,7 +52,7 @@ This should print the following in the console
 
     10 passing
 
-    ![App screenshot](truffletest.png)
+![App screenshot](screenshot2.png)
 
 
 ## Instruction for DApp
