@@ -1,10 +1,9 @@
 # Voting Vaccine DApp
 
-<<<<<<< HEAD
 Built a voting ballot application with 4 type of vaccine such that there is a chairperson who is authorized to register voters. Voters have the permission to vote only after the registration process.
 =======
 Built a voting ballot application with 4 type of vaccine that there is a chairperson who is authorized to register voters. Voters have the permission to vote only after the registration process.
->>>>>>> 1fa50d1f4795e60c767f98781c0b35ee7f8f9359
+
 
 <small> The smart contract used is based on the example in solidity docs </small>
 
