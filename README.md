@@ -80,3 +80,6 @@ Note:
 1. To deploy a new instance of the contract exit the npm server and then execute truffle migrate --reset and then start the server again.
 ![App screenshot](screenshot7.png)
 2. The contract is deployed from account[0] i.e the first account in the metamask.
+
+Deploy On Remix:
+Remix - Ethereum IDE https://www.loom.com/share/07b1cf66b76d40e3adf3781e15938f2b
