@@ -74,7 +74,7 @@ contract Ballot {
             // We found a loop in the delegation, not allowed.
             require(to != msg.sender, "Found loop in delegation.");
         }
-        `
+        
         sender.voted = true;
         sender.delegate = to;  
     }
