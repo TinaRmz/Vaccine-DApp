@@ -28,6 +28,9 @@ Voting (account2 to account6) and declare winner:
 
 ![App screenshot](screenshot6.png)
 
+## Truffle Migration:
+
+https://www.loom.com/share/a3bb3f384cef446ea047786ff665eb41
 
 ## Business logic to be included
 1. State change rules
@@ -64,6 +67,9 @@ This should print the following in the console
 
 ![App screenshot](screenshot2.png)
 
+## Truffle Test:
+https://www.loom.com/share/8a67bcfafc514008a0591e7c5bd69e8d
+
 
 ## Instruction for DApp
 
@@ -81,5 +87,5 @@ Note:
 ![App screenshot](screenshot7.png)
 2. The contract is deployed from account[0] i.e the first account in the metamask.
 
-Deploy On Remix:
+## Deploy On Remix:
 Remix - Ethereum IDE https://www.loom.com/share/07b1cf66b76d40e3adf3781e15938f2b
