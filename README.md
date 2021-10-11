@@ -20,11 +20,11 @@ Built a voting ballot application with 4 type of vaccine that there is a chairpe
 
 ![App screenshot](screenshot3.png)
 
-cause of deploy:
+After deploy:
 
  ![App screenshot](screenshot4.png)
 
-Voting (account2 to accaount6) and winning one:
+Voting (account2 to account6) and declare winner:
 
 ![App screenshot](screenshot6.png)
 
@@ -80,3 +80,6 @@ Note:
 1. To deploy a new instance of the contract exit the npm server and then execute truffle migrate --reset and then start the server again.
 ![App screenshot](screenshot7.png)
 2. The contract is deployed from account[0] i.e the first account in the metamask.
+
+Deploy On Remix:
+Remix - Ethereum IDE https://www.loom.com/share/07b1cf66b76d40e3adf3781e15938f2b
