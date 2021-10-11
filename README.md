@@ -21,7 +21,7 @@ Built a voting ballot application with 4 type of vaccine. there is a chairperson
 Using ganache-cli:
 ![App screenshot](screenshot3.png)
 
-Afret deploying::
+After deploying::
  ![App screenshot](screenshot4.png)
 
 Voted (account2 to account6) and declare winner:
@@ -84,9 +84,9 @@ https://www.loom.com/share/8a67bcfafc514008a0591e7c5bd69e8d
 Note:
 1. To deploy a new instance of the contract exit the npm server and then execute truffle migrate --reset and then start the server again.
 
-deployed_addresses:
 ## contract address:
 ![App screenshot](screenshot7.png)
+
 2. The contract is deployed from account[0] i.e the first account in the metamask.
 
 ## Deploy On Remix:
