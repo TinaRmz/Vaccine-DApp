@@ -1,4 +1,4 @@
-# Voting Vaccine DApp
+#  Vaccine Voting DApp
 
 Built a voting ballot application with 4 type of vaccine. there is a chairperson who is authorized to register voters. Voters have the permission to vote only after the registration process.
 =======
