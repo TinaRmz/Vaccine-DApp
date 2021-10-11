@@ -1,11 +1,10 @@
 # Voting Vaccine DApp
 
-Built a voting ballot application with 4 type of vaccine such that there is a chairperson who is authorized to register voters. Voters have the permission to vote only after the registration process.
+Built a voting ballot application with 4 type of vaccine. there is a chairperson who is authorized to register voters. Voters have the permission to vote only after the registration process.
 =======
-Built a voting ballot application with 4 type of vaccine that there is a chairperson who is authorized to register voters. Voters have the permission to vote only after the registration process.
+.
 
 
-<small> The smart contract used is based on the example in solidity docs </small>
 
 ![App screenshot](screenshot.png)
 
@@ -18,14 +17,14 @@ Built a voting ballot application with 4 type of vaccine that there is a chairpe
 5. Registered accounts cannot vote twice
 6. Can't vote a person who is not there
 
+
+Using ganache-cli:
 ![App screenshot](screenshot3.png)
 
-After deploy:
-
+Afret deploying::
  ![App screenshot](screenshot4.png)
 
-Voting (account2 to account6) and declare winner:
-
+Voted (account2 to account6) and declare winner:
 ![App screenshot](screenshot6.png)
 
 ## Truffle Migration:
@@ -84,6 +83,9 @@ https://www.loom.com/share/8a67bcfafc514008a0591e7c5bd69e8d
 
 Note:
 1. To deploy a new instance of the contract exit the npm server and then execute truffle migrate --reset and then start the server again.
+
+deployed_addresses:
+## contract address:
 ![App screenshot](screenshot7.png)
 2. The contract is deployed from account[0] i.e the first account in the metamask.
 
